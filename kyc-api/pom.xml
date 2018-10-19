@@ -14,6 +14,7 @@
 
     <modules>
         <module>registry-service</module>
+        <module>agent-service</module>
     </modules>
 
 
