@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: registry-service
+
+server:
+  port: 9001
+
+# Configure this Discovery Server
+eureka:
+  client:  # Not a client, don't register with yourself
+    registerWithEureka: false
+    fetchRegistry: false
