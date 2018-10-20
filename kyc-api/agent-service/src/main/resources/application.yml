@@ -9,9 +9,9 @@ spring:
 server:
   port: 9002
 
-# Configure this Discovery Server
+
 eureka:
-  client:  # Not a client, don't register with yourself
+  client:
     registerWithEureka: true
     fetchRegistry: true
     service-url:

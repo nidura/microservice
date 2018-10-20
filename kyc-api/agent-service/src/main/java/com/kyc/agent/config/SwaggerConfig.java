@@ -30,7 +30,7 @@ public class SwaggerConfig {
 
     private ApiInfo metaInfo() {
         ApiInfo apiInfo = new ApiInfo(
-                "Dashboard Service - Swagger Rest API Documentation",
+                "Agent Service - Swagger Rest API Documentation",
                 "Spring Boot - kyc api",
                 "1.0",
                 "Terms of Service",
