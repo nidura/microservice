@@ -4,6 +4,7 @@ import com.kyc.agent.model.Person;
 import com.kyc.agent.service.AgentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 
@@ -17,11 +18,6 @@ public class AgentController {
 
     @Autowired
     private AgentService agentService;
-
-    @GetMapping("person")
-    public List<Person> findAllPerson(){
-        return agentService.findAllPerson();
-    }
 
     @GetMapping("person/{nic}")
     public Person findPersonByNic(@PathVariable("nic") String nic){
