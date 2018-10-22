@@ -12,7 +12,7 @@ import java.util.List;
  * Date : 2018-10-20
  */
 @RestController
-@RequestMapping("/api/agent/")
+@RequestMapping("/agent/")
 public class AgentController {
 
     @Autowired
