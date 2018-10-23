@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <name>registry-service</name>
-    <description>eureka service registry</description>
+    <description>eureka registry service</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -61,6 +61,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <finalName>${project.artifactId}</finalName>
     </build>
 
 
