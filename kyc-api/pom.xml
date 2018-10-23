@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.dialog</groupId>
-    <artifactId>kyc</artifactId>
+    <artifactId>kyc-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>kyc</name>
+    <name>kyc-api</name>
     <description></description>
 
 
